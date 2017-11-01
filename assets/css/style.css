@@ -14,7 +14,6 @@ ul {
 }
 
 li {
-
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   height: 25px;
@@ -22,6 +21,9 @@ li {
   margin-right: 0px;
   border-right: 1px solid #aaa;
   padding: 0 20px;
+}
+.links {
+	color: #4aaaa5;
 }
 .name {
 	background-color: #4aaaa5;
@@ -40,7 +42,7 @@ hr {
 }
 .main {
 	position: relative;
-	background-image: url(file:///C:/Users/kates/Documents/BootCamp/Week%201/Basic-Portfolio/assets/images/intersection.png);
+	background-image: url("../images/intersection.png");
 	height: 1340px;
 	margin-top: 0;
 }
@@ -68,9 +70,14 @@ img {
 	text-align: center;
 	background-color: white;
 	width: 270px;
-	height: 270px;
+	height: 200px;
 	top: 50px;
 	margin-left: 900px;
+
+}
+.linkimg {
+	border: 20px;
+
 }
 footer {
 	background-color: #666666;
