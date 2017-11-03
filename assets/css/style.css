@@ -1,3 +1,4 @@
+
 header {
 	background-color: #fff;
 	margin: 0;
@@ -5,47 +6,77 @@ header {
 	padding-left: 90px;
 	border: #cccccc;
 }
-
-ul {
-  text-align: right;
-  overflow: auto;
-  list-style-type: none;
-  margin: 0;
-}
-
-li {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;
-  height: 25px;
-  float: left;
-  margin-right: 0px;
-  border-right: 1px solid #aaa;
-  padding: 0 20px;
-}
-.links {
-	color: #4aaaa5;
-}
-.name {
-	background-color: #4aaaa5;
-	color: white;
-	float: left;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	height: 90px;
-	width: 270px;
-	margin-left: 90px;
-	margin: 0;
-}
-hr {
-	background-color: #e3e4e5;
-	height: 2px;
-	border: 0;
-}
 .main {
 	position: relative;
 	background-image: url("../images/intersection.png");
 	height: 1340px;
 	margin-top: 0;
 }
+footer {
+	background-color: #666666;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 20px;
+}
+
+.name {
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	height: 90px;
+	width: 270px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 90px;
+	margin: 0;
+}
+.links {
+	float: right;
+	text-align: center;
+	height: 20px;
+	width: 280px;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+.link1 {
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #e3e4e5;
+	padding-right: 20px;
+	margin: 10px;
+	margin-top: 50px;
+}
+.link2 {
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #e3e4e5;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.link3 {
+	padding-left: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+hr {
+	background-color: #e3e4e5;
+	height: 2px;
+	border: 0;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 #aboutme {
 	position: absolute;
 	color: #4aaaa5;
@@ -58,6 +89,7 @@ hr {
 	border-top: 2px;
 	border-top-color: #e3e4e5;
 }
+
 p {
 	color: #777777;
 }
@@ -76,14 +108,207 @@ img {
 
 }
 .linkimg {
-	border: 20px;
+	position: absolute;
+	background-color: white;
+	margin-left: 20px;
 
 }
-footer {
-	background-color: #666666;
+.github {
+	float: left;
+	margin: 10px;
+	
+}
+.linkedin {
+	float: left;
+	margin: 10px;
+
+}
+.stack {
+	float: left;
+	margin: 10px;
+
+}
+
+#contact {
+	position: absolute;
+	color: #4aaaa5;
+	background-color: #fff;
+	width:650px;
+	height: 500px;
+	padding: 30px;
+	margin-top: 50px;
+	margin-left: 90px;
+	border-top: 2px;
+	border-top-color: #e3e4e5;
+}
+#portfolio {
+	position: absolute;
+	color: #4aaaa5;
+	background-color: #fff;
+	width:650px;
+	height: 500px;
+	padding: 30px;
+	margin-top: 50px;
+	margin-left: 90px;
+	border-top: 2px;
+	border-top-color: #e3e4e5;
+}
+.form {
+	color: gray;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+#name {
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #e3e4e5;
+	padding-left: 10px;
+}
+
+#email {
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #e3e4e5;
+	padding-left: 10px;
+}
+
+#message {
+	height: 150px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#submit {
 	color: white;
-	  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #4aaaa5;
+	border: 0;
+	height: 30px;
+	width: 100px;
+	font-size: 16px;
+}
+
+#portfolio {
+	height: 800px;
+}
+
+#box1 {
+	position: relative;
+	height: 220px;
+	background-color: white;
+	margin: 25px;
+}
+#hangman {
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom:  10px;
+	margin-left: 70px;
+	z-index: 1;
+}
+#hangmantext {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
 	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 20px;
+	font-size: 20px;
+	height: 40px;
+	width: 200px;
+	padding-top: 10px;
+	margin-left: 70px;
+	margin-top: 150px;
+	z-index: 2;
+}
+#rpggame {
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom:  10px;
+	margin-left: 330px;
+	z-index: 1;
+}
+#rpggametext {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	height: 40px;
+	width: 200px;
+	padding-top: 10px;
+	margin-left: 330px;
+	margin-top: 150px;
+	z-index: 2;
+}
+
+#box2 {
+	position: relative;
+	height: 220px;
+	background-color: white;
+	margin: 25px;
+}
+#trivia {
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom:  10px;
+	margin-left: 70px;
+	z-index: 1;
+}
+#triviagametext {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	height: 40px;
+	width: 200px;
+	padding-top: 10px;
+	margin-top: 140px;
+	z-index: 2;
+}
+
+#widget {
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom:  10px;
+	margin-left: 330px;
+	z-index: 1;
+}
+#widgettext {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	height: 40px;
+	width: 200px;
+	padding-top: 10px;
+	margin-top: 140px;
+	z-index: 2;
+}
+#box3 {
+	height: 220px;
+	background-color: white;
+	margin: 25px;
+}
+#RPS {
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom:  10px;
+	margin-left: 70px;
+	z-index: 1;
+}
+#RPStext {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	height: 40px;
+	width: 200px;
+	padding-top: 10px;
+	margin-top: 140px;
+	z-index: 2;
 }
