@@ -92,6 +92,9 @@ hr {
 
 p {
 	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 200%;
+
 }
 img {
 	float: left;
